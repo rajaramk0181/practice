@@ -8,3 +8,8 @@ node('UBUNTU') {
     
     }
     }
+post{
+    always{
+        archive 'target//*.jar'
+    }
+}
