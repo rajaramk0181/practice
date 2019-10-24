@@ -1,4 +1,4 @@
-node('UBUNTU') {
+node('MVN_UBUNTU') {
     stage('git') {
         git branch:'dev',url:'https://github.com/sainath2929/practice.git'
     }
